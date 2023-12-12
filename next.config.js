@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 	images: {
-		remotePatterns: [{ protocol: 'https', hostname: 'www.shareicon.net' }],
+		remotePatterns: [
+			{ protocol: 'https', hostname: 'www.shareicon.net' },
+			{ protocol: 'https', hostname: 'icons8.com' }, // Added 'icons8.com'
+		],
 	},
 }
 
